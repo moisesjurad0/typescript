@@ -25,3 +25,10 @@ console.log('msg3')
 console.log(msg3)
 //si comentas el ": string" funcionará normal.
 
+//para compilar: 
+// en cmd: "tsc app"
+
+//*don't use powershell on this scenario. gives error:
+//tsc.ps1 cannot be loaded
+//https:/go.microsoft.com/fwlink/?LinkID=135170.
+
