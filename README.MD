@@ -10,3 +10,5 @@ npm install -g typescript
 ```
 
 ## bases (folder)
+
+- examples of the basics
