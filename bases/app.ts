@@ -13,6 +13,7 @@ console.log('msg2')
 console.log(msg2)
 
 msg2 = 123; // y no permite cambiarlo, en ejecucion. Dará error de "compilacion" en el editor de texto.
+//app.ts:15:1 - error TS2322: Type 'number' is not assignable to type 'string'.
 console.log('msg2')
 console.log(msg2)
 //*mientras typeScript no esté importado tampoco afectará e igual funcionará en runtime
@@ -20,7 +21,8 @@ console.log(msg2)
 //tambien le puedo definir tipo a la constante
 //pero esto es solo de typescript asi q javascript no lo conoce y se cae en runtime
 //Uncaught SyntaxError: Missing initializer in const declaration
-const msg3 = 'hola mundo';
+const msg3 : string = 'hola mundo';
+
 console.log('msg3')
 console.log(msg3)
 //si comentas el ": string" funcionará normal.
