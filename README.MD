@@ -17,3 +17,5 @@ npm install -g typescript
   - using of "tsc --init"
   - using of "tsc"
     - once generated tsconfig.json you can execute "tsc" directly to transpile all .ts files on the current folder.
+  - using of "tsc --watch"
+    - start running (a process) a observer to the current folder to internally run "tsc --watch" once a change is detected.
